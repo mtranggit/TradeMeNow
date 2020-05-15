@@ -23,6 +23,8 @@
     ],
     "ios": {
       "supportsTablet": true
-    }
+    },
+    "description": "A marketplace for buying and selling things for free",
+    "githubUrl": "https://github.com/mtranggit/TradeMeNow"
   }
 }
