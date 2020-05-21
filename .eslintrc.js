@@ -5,6 +5,7 @@ module.exports = {
   "rules": {
     "no-console": 1,
     "global-require": 0,
+    "react/prop-types": 0,
     "prettier/prettier": [
       "error",
       {
