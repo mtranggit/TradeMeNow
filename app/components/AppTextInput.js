@@ -19,8 +19,8 @@ const styles = StyleSheet.create({
   },
 });
 
-const AppTextInput = ({ icon, ...otherProps }) => (
-  <View style={styles.container}>
+const AppTextInput = ({ icon, width = '100%', ...otherProps }) => (
+  <View style={[styles.container, { width }]}>
     {icon && <MaterialCommunityIcons name={icon} size={20} color={defaultStyles.colors.medium} style={styles.icon} />}
     <TextInput style={defaultStyles.text} {...otherProps} />
   </View>

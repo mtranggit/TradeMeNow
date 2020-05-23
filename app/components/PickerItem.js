@@ -9,9 +9,9 @@ const styles = StyleSheet.create({
   },
 });
 
-const PickerItem = ({ onPress, label }) => (
+const PickerItem = ({ item, onPress }) => (
   <TouchableOpacity onPress={onPress}>
-    <AppText style={styles.text}>{label}</AppText>
+    <AppText style={styles.text}>{item.label}</AppText>
   </TouchableOpacity>
 );
 
