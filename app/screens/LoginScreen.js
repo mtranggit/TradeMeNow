@@ -3,9 +3,7 @@ import { StyleSheet, Image } from 'react-native';
 import * as Yup from 'yup';
 
 import Screen from '../components/Screen';
-import AppForm from '../components/forms/AppForm';
-import AppFormField from '../components/forms/AppFormField';
-import AppSubmitButton from '../components/forms/AppSubmitButton';
+import { AppForm, AppFormField, AppSubmitButton } from '../components/forms';
 
 const styles = StyleSheet.create({
   container: {
