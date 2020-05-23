@@ -1,11 +1,13 @@
 import React from 'react';
 
 // import LoginScreen from './app/screens/LoginScreen';
-import RegisterScreen from './app/screens/RegisterScreen';
+// import RegisterScreen from './app/screens/RegisterScreen';
+import ListingEditScreen from './app/screens/ListingEditScreen';
 
 export default function App() {
   // return <LoginScreen />;
-  return <RegisterScreen />;
+  // return <RegisterScreen />;
+  return <ListingEditScreen />;
 }
 
 // import React, { useState } from 'react';
